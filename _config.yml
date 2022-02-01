@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "Ssong"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "반갑습니다 :)"
   location         : "Seoul, South Korea"
   email            :

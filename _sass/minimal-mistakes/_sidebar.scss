@@ -132,9 +132,9 @@
     width: auto;
     height: auto;
   }
-
+// 프로필 사진
   img {
-    max-width: 110px;
+    max-width: 150px;
     border-radius: 50%;
 
     @include breakpoint($large) {

@@ -3,12 +3,12 @@ title:  "Comment test"
 excerpt: "Comment test"
 
 categories:
-  - Cpp
+  - Blog
 tags:
-  - [Blog]
+  - [Blog, C++]
 
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
  
 date: 2022-02-20
 last_modified_at: 2022-02-20

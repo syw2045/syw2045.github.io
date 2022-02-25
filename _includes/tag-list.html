@@ -7,6 +7,8 @@
 
 {% if site.tag_archive.path %}
   {% comment %}
+    <!-- Sort alphabetically regardless of case e.g. a B c d E -->
+    <!-- modified from http://www.codeofclimber.ru/2015/sorting-site-tags-in-jekyll/ -->
   {% endcomment %}
   {% capture page_tags %}{% for tag in page.tags %}{{ tag | downcase }}|{{ tag }}{% unless forloop.last %},
   

@@ -1,14 +1,10 @@
 # main links
 main:
   - title: "Home"
-    url: https://syw2045.github.io/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
-
-  # 상단 카테고리 추가하는곳
+    url: /index.html
+  #- title: "About"
+    #url: /about/
+  - title: "Category"
+    url: /categories/
+  #- title: "Tag"
+    #url: /tags/

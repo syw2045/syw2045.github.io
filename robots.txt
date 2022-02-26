@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://syw2045.github.io/sitemap.xml
+ Allow: /
+ Sitemap: {{ '/sitemap.xml' | relative_url | prepend: site.url }}
+    

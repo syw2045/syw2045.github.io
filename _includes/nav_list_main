@@ -35,8 +35,33 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
+        <span class="nav__sub-title">University</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "IAC" %}
+                    <li><a href="/categories/IAC" class="">산학연계({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+        
+        <span class="nav__sub-title">Review</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Books" %}
+                        <li><a href="/categories/books" class="">Books ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Movie" %}
+                        <li><a href="/categories/movie" class="">Movie ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
-      <li>
         <br>      
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsyw2045.github.io&count_bg=%234DC6CB&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">
       </li>

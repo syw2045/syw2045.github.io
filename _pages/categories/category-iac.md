@@ -1,5 +1,5 @@
 ---
-title: "산학 연계 Industry-Academic-Cooperation"
+title: "산학 연계 Industry Academic Cooperation"
 layout: archive
 permalink: categories/IAC
 author_profile: true

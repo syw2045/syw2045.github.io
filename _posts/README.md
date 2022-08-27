@@ -7,3 +7,22 @@
 - \_includes 안에 nav_list 파일을 들어가서 사이드바에 나타내고 싶은 카테고리를 작성한다.
 
 - bundle exec jekyll serve
+
+---
+
+title: "제목"
+
+categories:
+
+- tags:
+- [원하는 태그]
+
+toc: true
+toc_sticky: true
+
+date: 2022-08-27
+last_modified_at: 2022-08-27
+
+---
+
+[맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}

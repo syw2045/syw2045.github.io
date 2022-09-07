@@ -10,22 +10,23 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">Study</span>
+        <span class="nav__sub-title">C/C++</span>
             <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Cpp" %}
-                        <li><a href="/categories/cpp" class="">C++ ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+             {% for category in site.categories %}
+                {% if category[0] == "C" %}
+                    <li><a href="/categories/c" class="">C({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>   
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Forensic" %}
-                        <li><a href="/categories/forensic" class="">Digital Forensic({{category[1].size}})</a></li>
+                    {% if category[0] == "Cpp" %}
+                        <li><a href="/categories/cpp" class="">C++({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+        
             
         <span class="nav__sub-title">Coding Test</span>
             <ul>
@@ -54,6 +55,16 @@
                 {% endfor %}
             </ul>
         
+        <span class="nav__sub-title">Study</span>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Forensic" %}
+                        <li><a href="/categories/forensic" class="">Digital Forensic({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Review</span>
             <ul>
                 {% for category in site.categories %}

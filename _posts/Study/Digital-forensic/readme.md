@@ -17,3 +17,9 @@ last_modified_at: 2022-09-04
 {: .notice--warning}
 
 > [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
+
+ㄴ + 한자 => 꺽쇠 「 」
+
+ㄱ + 한자 => 중간 점 ·
+
+ㅇ + 한자 -> 숫자 ②

@@ -1,10 +1,10 @@
 ---
-title:  "[백준 번호] 문제 제목" 
+title: "[백준 번호] 문제 제목"
 
 categories:
   - BOJ
 tags:
-  - [Algorithm, Coding Test, Cpp]
+  - [Coding Test, Cpp]
 
 toc: true
 toc_sticky: true
@@ -14,14 +14,17 @@ last_modified_at: 2022-03-06
 ---
 
 ## 난이도
-> **  I, II, III, IV, V,**
+
+> ** I, II, III, IV, V,**
 
 ## 📜문제
+
 > <https://www.acmicpc.net/problem/문제번호>
 
 ## 🔎접근
 
 ## 🌞풀이
+
 ```c++
 
 ```

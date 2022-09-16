@@ -62,12 +62,20 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">Study</span>
+        <span class="nav__sub-title">Digital Forensic</span>
 
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Forensic" %}
-                        <li><a href="/categories/forensic" class="">Digital Forensic({{category[1].size}})</a></li>
+                    {% if category[0] == "Forensic-Theory" %}
+                        <li><a href="/categories/forensic-theory" class="">디지털포렌식 이론({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Forensic-Lecture" %}
+                        <li><a href="/categories/forensic-lecture" class="">디지털포렌식 강의({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

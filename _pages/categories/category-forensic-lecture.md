@@ -1,10 +1,10 @@
 ---
-title: "Digital-Forensic"
+title: "Digital-Forensic Lecture"
 layout: archive
-permalink: categories/Forensic
+permalink: categories/Forensic-Lecture
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Forensic %}
+{% assign posts = site.categories.Forensic-Lecture %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

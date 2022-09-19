@@ -80,6 +80,24 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">Activity</span>
+
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Supporters" %}
+                    <li><a href="/categories/Supporters" class="">광운상담서포터즈({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "ReadingClub" %}
+                    <li><a href="/categories/ReadingClub" class="">독서클럽({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+
         <span class="nav__sub-title">Review</span>
             <ul>
                 {% for category in site.categories %}

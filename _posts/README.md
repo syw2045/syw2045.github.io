@@ -14,7 +14,8 @@ title: "제목"
 
 categories:
 
-- tags:
+- [카테고리]
+  tags:
 - [원하는 태그]
 
 toc: true

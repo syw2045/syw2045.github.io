@@ -10,19 +10,19 @@
 
 ---
 
-title: "제목"
+title: "[태그] 제목"
 
 categories:
 
-- [카테고리]
+- 카테고리
   tags:
-- [원하는 태그]
+- [태그]
 
 toc: true
 toc_sticky: true
 
-date: 2022-08-27
-last_modified_at: 2022-08-27
+date: 2022-09-26
+last_modified_at: 2022-09-26
 
 ---
 

@@ -61,7 +61,15 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        
+            
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "OS" %}
+                        <li><a href="/categories/OS" class="">운영체제({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Digital Forensic</span>
 
             <ul>

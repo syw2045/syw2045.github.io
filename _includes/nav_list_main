@@ -10,7 +10,7 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
-        <span class="nav__sub-title">C/C++</span>
+        <span class="nav__sub-title">C/C++/Python</span>
             <ul>
              {% for category in site.categories %}
                 {% if category[0] == "C" %}
@@ -27,6 +27,13 @@
                 {% endfor %}
             </ul>
         
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Python" %}
+                        <li><a href="/categories/Python" class="">Python({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             
         <span class="nav__sub-title">Coding Test</span>
             <ul>
@@ -70,43 +77,8 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Digital Forensic</span>
 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Forensic-Theory" %}
-                        <li><a href="/categories/forensic-theory" class="">디지털포렌식 이론({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Forensic-Lecture" %}
-                        <li><a href="/categories/forensic-lecture" class="">디지털포렌식 강의({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-        <span class="nav__sub-title">Activity</span>
-
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "Supporters" %}
-                    <li><a href="/categories/Supporters" class="">광운상담서포터즈({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-
-        <ul>
-            {% for category in site.categories %}
-                {% if category[0] == "ReadingClub" %}
-                    <li><a href="/categories/ReadingClub" class="">독서클럽({{category[1].size}})</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-
-        <span class="nav__sub-title">Review</span>
+        <!-- <span class="nav__sub-title">Review</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Books" %}
@@ -121,7 +93,7 @@
                         <li><a href="/categories/movie" class="">Movie ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
+            </ul> -->
       </li>
         <br>      
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsyw2045.github.io&count_bg=%234DC6CB&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">

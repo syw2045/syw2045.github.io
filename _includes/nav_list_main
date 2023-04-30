@@ -76,6 +76,24 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        
+        <span class="nav__sub-title">Job-Preparation</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Internship" %}
+                        <li><a href="/categories/Internship" class="">Internship({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            
+            
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Certification" %}
+                        <li><a href="/categories/Certification" class="">Certification({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
 
         <!-- <span class="nav__sub-title">Review</span>

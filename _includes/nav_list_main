@@ -77,41 +77,14 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">Job-Preparation</span>
+        <span class="nav__sub-title">Robotics</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Internship" %}
-                        <li><a href="/categories/Internship" class="">Internship({{category[1].size}})</a></li>
+                    {% if category[0] == "Basic" %}
+                        <li><a href="/categories/Basic" class="">Basic({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
-            
-            
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Certification" %}
-                        <li><a href="/categories/Certification" class="">Certification({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-
-        <!-- <span class="nav__sub-title">Review</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Books" %}
-                        <li><a href="/categories/books" class="">Books ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Movie" %}
-                        <li><a href="/categories/movie" class="">Movie ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul> -->
       </li>
         <br>      
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsyw2045.github.io&count_bg=%234DC6CB&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">

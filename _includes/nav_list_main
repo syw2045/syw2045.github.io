@@ -60,14 +60,6 @@
                 {% endfor %}
             </ul>
 
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Codingtest" %}
-                        <li><a href="/categories/codingtest" class="">개념({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
         <span class="nav__sub-title">University</span>
             <ul>
                 {% for category in site.categories %}

@@ -1,10 +1,10 @@
 ---
-title: "책 리뷰"
+title: "Compuer Vision"
 layout: archive
-permalink: categories/books
+permalink: categories/CV
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Books %}
+{% assign posts = site.categories.CV %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

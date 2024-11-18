@@ -77,14 +77,24 @@
                 {% endfor %}
             </ul>
         
-        <span class="nav__sub-title">Robotics</span>
+        <span class="nav__sub-title">STUDY</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Basic" %}
-                        <li><a href="/categories/Basic" class="">Basic({{category[1].size}})</a></li>
+                    {% if category[0] == "CV" %}
+                        <li><a href="/categories/CV" class="">CV({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Papers" %}
+                        <li><a href="/categories/Papers" class="">Papers({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            
       </li>
         <br>      
         <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fsyw2045.github.io&count_bg=%234DC6CB&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false">

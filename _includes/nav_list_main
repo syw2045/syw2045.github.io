@@ -94,6 +94,13 @@
                 {% endfor %}
             </ul>
 
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Terminology" %}
+                        <li><a href="/categories/Terminology" class="">Terminology({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
             
       </li>
         <br>      

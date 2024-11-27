@@ -81,7 +81,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CV" %}
-                        <li><a href="/categories/CV" class="">CV({{category[1].size}})</a></li>
+                        <li><a href="/categories/CV" class="">Computer Vision({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
